@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	font-family: "Montserrat",sans-serif;
+	color: white;
+}
+
+#topbar {
+	background-color: #292D32;
+	width: 100%;
+	height: 85px;
+}
+
+.fixedwidth {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.break {
+	clear: both;
+}
+
+.morenews {
+	background-image: url("images/morenews.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 30px;
+	color: #1176DD;
+	text-decoration: none;
+}
+
+.morenews a {
+	color: #1176DD;
+	text-decoration: none;
+}
+
+
+#logo {
+	padding-top: 17px;
+	float: left;
+}
+
+#weather {
+	padding-top: 15px;
+	float: right;
+}
+
+#topmenu {
+	float: left;
+}
+
+#topmenudiv li {
+	list-style: none;
+	font-weight: bold;
+}
+
+#newsbar {
+	background-color: #292D32;
+	width: 100%;
+	height: 35px;
+}
+
+#topicmenu {
+
+}
+
+#topicmenu ul {
+	margin: 0;
+	padding:0px;
+}
+
+#topicmenu li {
+	list-style: none;
+	font-size: 1em; 
+	float: left;
+	padding-right: 35px;
+	padding-bottom: 17px;
+}
+
+#topicmenuright {
+	float: right;
+}
+
+#topicmenuright ul {
+	margin: 0;
+	padding-left: 150px;
+}
+
+#topicmenuright li {
+	list-style: none;
+	font-size: 1em; 
+	float: left;
+	padding-left: 35px;
+}
+
+#content {
+	background-color: white;
+	width: 100%;
+	color: black;
+}
+
+h1 {
+	margin-top: 50px;
+	padding-top: 0.5em;
+	font-size: 3em;
+	text-align: center;
+}
+
+.headlineimage {
+	float: left;
+}
+
+#newsitem {
+	position: relative;
+	left: 40px;
+	width: 250px;
+	padding-bottom: 90px;
+	padding-right: 10px;
+	float: left;
+}
+
+#newsitem p {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#newsitem a {
+	text-decoration: none;
+	color: black;
+}
+
+#newsitem a:hover {
+	text-decoration: underline;
+}
+
+#latestnews {
+	position: relative;
+	margin-top: -25px;
+	left: 80px;
+	width: 300px;
+	float: left;
+}
+
+#latestnews h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 12px;
+}
+
+#latestnews h4 {
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #76B0EB;
+}
+
+#latestnews hr {
+	margin-top: -15px;
+}
+
+#latestnews a {
+	text-decoration: none;
+	color: black;
+}
+
+#latestnews a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	padding-top: 25px;
+	font-size: 1.25em;
+	text-align: center;
+}
+
