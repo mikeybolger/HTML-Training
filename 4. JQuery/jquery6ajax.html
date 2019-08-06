@@ -1,0 +1,37 @@
+//Note: Ajax requires a live server a doe not work with localhost.
+
+<html>
+
+    <head>
+        
+        <title>AJAX</title>
+ 
+        <script type="text/javascript" src="jquery.min.js"></script>
+        
+    </head>
+
+    <body>
+        
+        <p></p>
+        
+//Data is read from a seperate data.txt fire located on the server.
+        <script type="text/javascript">
+          
+            $.ajax("info.txt")
+                .done(function(data) {
+                
+                $("p").html(data);
+                
+                })
+                .fail(function() {
+                
+                alert("Could not get data");
+                
+                });
+            
+        
+        </script>
+        
+    </body>
+
+</html>
